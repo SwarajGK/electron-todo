@@ -1,19 +1,14 @@
-import React from 'react'
-import { Button } from 'antd'
+import React from 'react';
+import Todos from '../Daily/Todos/container';
 
-import { Container, Image, Text } from './styles'
+import { Container } from './styles';
 
 const Greetings: React.FC = () => {
   return (
     <Container>
-      <Image
-        src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"
-        alt="ReactJS logo"
-      />
-      {/* This is the sample app */}
-      <Button type="primary">Primary Button</Button>
+      <Todos />
     </Container>
-  )
-}
+  );
+};
 
-export default Greetings
+export default Greetings;

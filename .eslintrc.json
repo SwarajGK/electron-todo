@@ -26,7 +26,7 @@
   ],
   "rules": {
     "react/prop-types": "off",
-    "semicolon": 0,
+    "semi": [2, "always"],
     "import/extensions": [
       "error",
       "ignorePackages",
@@ -38,7 +38,10 @@
   },
   "settings": {
     "import/resolver": {
-      "typescript": {} 
+      "typescript": {} ,
+      "webpack": {
+        "config": "./webpack/react.webpack.js"
+      }
     }
   }
 }
