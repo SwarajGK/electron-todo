@@ -1,4 +1,5 @@
 import React from 'react'
+import { Button } from 'antd'
 
 import { Container, Image, Text } from './styles'
 
@@ -9,7 +10,8 @@ const Greetings: React.FC = () => {
         src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"
         alt="ReactJS logo"
       />
-      <Text>An Electron boilerplate including TypeScript, React, Jest and ESLint.</Text>
+      {/* This is the sample app */}
+      <Button type="primary">Primary Button</Button>
     </Container>
   )
 }

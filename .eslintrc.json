@@ -26,6 +26,7 @@
   ],
   "rules": {
     "react/prop-types": "off",
+    "semicolon": 0,
     "import/extensions": [
       "error",
       "ignorePackages",
