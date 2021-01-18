@@ -5,7 +5,7 @@ import 'antd/dist/antd.css';
 import store from './store';
 import { GlobalStyle } from './styles/GlobalStyle';
 
-import Greetings from './components/Greetings';
+import TododApp from './components/TodoApp';
 
 const mainElement = document.createElement('div');
 mainElement.setAttribute('id', 'root');
@@ -15,7 +15,7 @@ const App = () => {
   return (
     <Provider store={store}>
       <GlobalStyle />
-      <Greetings />
+      <TododApp />
     </Provider>
   );
 };

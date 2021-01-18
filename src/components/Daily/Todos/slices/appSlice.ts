@@ -1,4 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
+// import { RootState } from '../../../../store';
 
 export interface State {
   counter: number;
@@ -23,4 +24,4 @@ const { reducer, actions } = createSlice({
 export default reducer;
 export const { increment, decrement } = actions;
 
-export const getCounterValue = (state): number => state.app.counter;
+// export const getCounterValue = (state: RootState): number => state.app.counter;
