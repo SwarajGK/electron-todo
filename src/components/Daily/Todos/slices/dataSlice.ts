@@ -45,4 +45,4 @@ const { reducer, actions } = createSlice({
 export default reducer;
 export const { addTodo, removeTodo, updateTodo } = actions;
 
-export const getTodos = (state: RootState): Array<Todo> => state.data.dailyTodos;
+export const getTodos = (state: RootState): Array<Todo> => state.data.dailyTodos.todos;

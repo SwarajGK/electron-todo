@@ -3,4 +3,5 @@ export interface Todo {
   date?: string;
   title?: string;
   text?: string;
+  editable?: boolean;
 }
